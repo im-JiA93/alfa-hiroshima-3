@@ -24,7 +24,7 @@ body {
   text-decoration: none;
   border: none;
   list-style: none;
-  color: #232f3e;
+  color: #000;
   margin: 0;
 }
 
@@ -78,7 +78,7 @@ button {
   display: block;
   border: none;
   margin: 0 auto;
-  background-color: #006837;
+  background-color: #232f3e;
   color: #fff;
   width: 287px;
   height: 55px;
