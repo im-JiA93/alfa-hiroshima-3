@@ -62,6 +62,7 @@ const app = Vue.createApp({
       *  最終ステージはページを遷移するので設定不要です。
       */
       next: {
+        stage0: true,
         stage1: false,
         stage2: false,
       },
@@ -89,6 +90,7 @@ const app = Vue.createApp({
     nextStage(stage) {
       this.clear[stage] = false;
       this.next[stage] = true;
+      this.next["stage"+(Number(stage.substr(-1))-1)] = false;
     },
   }
 })
