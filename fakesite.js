@@ -5,11 +5,8 @@ const app=new Vue({
     seen: false
   },
   methods: {
-   move(){
-     this.seen=true
-     setTimeout(()=>{
-       location.href=“main.html”
-     },4000) 
+   show(){
+    this.seen=true
    }
-  }
+  }  
 })
