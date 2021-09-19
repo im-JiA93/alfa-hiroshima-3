@@ -1,7 +1,7 @@
 const app=new Vue({
   el:"#app",
   data:{
-    message:"こんにちは" 
+    message:"IPアドレス取得中..." 
   },
   methods:{
    hello(){
