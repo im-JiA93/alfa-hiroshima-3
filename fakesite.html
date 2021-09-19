@@ -11,7 +11,7 @@
    <section class="hero is-info is-height-400px">
      <div class="hero-body">
        <div id="app" class="container">
-         <div class="notification">
+         <div v-if="seen" class="notification">
            <progress class="progress is-small is-primary" max="100">0%</progress>
            <p class="is-size-4">{{ message }}</p>
          </div>
