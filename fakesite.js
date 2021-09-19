@@ -1,7 +1,7 @@
 const app=new Vue({
   el:"#app",
   data:{
-    message:"こんにちは！" 
+    messag:"こんにちは" 
   },
   methods:{
    hello(){
