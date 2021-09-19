@@ -1,4 +1,4 @@
-alert("あなたはハッキングされました\nYou got hacked.＂)
+alert("あなたはハッキングされました。＂)
 /**********************************************************************************************************
  * 解答入力欄のコンポーネントです。入力欄・送信ボタン・エラーメッセージを表示します。
  * <answer-input v-bind:correct="解答" v-on:answer-input="answerInput(event, stage, number, final)"></answer-input>
