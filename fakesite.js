@@ -5,11 +5,11 @@ const app=new Vue({
     seen: false
   },
   methods:{
-   hello(){
-    alert("Hello World")
-   } ,
-    show(){
+   move(){
      this.seen=true
-    }
+     setTimeout(() => {
+       location.href=“main.html”
+     },4000) 
+   }
   }
 })
