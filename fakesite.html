@@ -9,14 +9,16 @@
  <body>
    <img src="assets/images/iPhoneredPAKU8805_TP_V.jpg" alt="">
    <section class="hero is-info is-height-400px">
-     <div　id="app" class="hero-body">
-       <p class="is-size-4">{{ message }}</p>
-       <p class="title is-size-2">
-         今ならiPhoneeがたったの198円!
-       </p>
-       <p class="is-size-4">おめでとうございます！あなたにはiPhoneeを格安で購入する権利が特別に与えられました！</p>
-       <p class="is-size-4">下のリンクからアクセスして今すぐにiPhoneeを手に入れましょう！</p>
-       <button v-on:click="hello" class="button is-primary is-large">購入はこちらから!</button>
+     <div class="hero-body">
+       <div id="app" class="container">
+        <p class="is-size-4">{{ message }}</p>
+        <p class="title is-size-2">
+          今ならiPhoneeがたったの198円!
+        </p>
+        <p class="is-size-4">おめでとうございます！あなたにはiPhoneeを格安で購入する権利が特別に与えられました！</p>
+        <p class="is-size-4">下のリンクからアクセスして今すぐにiPhoneeを手に入れましょう！</p>
+        <button v-on:click="hello" class="button is-primary is-large">購入はこちらから!</button>
+       </div>
      </div> 
    </section>
    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
