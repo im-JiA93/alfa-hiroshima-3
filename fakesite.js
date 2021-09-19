@@ -4,7 +4,7 @@ const app=new Vue({
     message:"IPアドレス取得中..." ,
     seen: false
   },
-  methods:{
+  methods: {
    move(){
      this.seen=true
      setTimeout(()=>{
