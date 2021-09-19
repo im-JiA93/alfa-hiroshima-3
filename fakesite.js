@@ -8,6 +8,9 @@ const app=new Vue({
    show(){
     this.seen = true
      setTimeout(()=>{
+      this.message="個人情報取得中..."
+     },1000)
+     setTimeout(()=>{
       location.href="main.html"
      },4000)
    }
