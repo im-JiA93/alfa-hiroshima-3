@@ -1,8 +1,11 @@
-alert("Hello");
 const app=new Vue({
   el:"#app",
   data:{
     message:"こんにちは" 
   },
-  methods:{}
+  methods:{
+   hello(){
+    alert("Hello World")
+   }  
+  }
 })
