@@ -7,6 +7,9 @@ const app=new Vue({
   methods:{
    hello(){
     alert("Hello World")
-   }  
+   } ,
+    show(){
+     this.seen=true
+    }
   }
 })
