@@ -6,6 +6,8 @@ const app=new Vue({
   },
   methods: {
    show(){
+    const se = new Audio("警報が鳴る.mp3")
+    se.play()
     this.seen = true
      setTimeout(()=>{
       this.message="個人情報取得中..."
