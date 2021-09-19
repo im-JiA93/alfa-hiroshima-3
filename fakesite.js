@@ -6,7 +6,7 @@ const app=new Vue({
   },
   methods: {
    show(){
-    this.seen=true
+    this.seen = true
    }
   }  
 })
