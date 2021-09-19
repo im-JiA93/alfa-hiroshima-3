@@ -7,6 +7,9 @@ const app=new Vue({
   methods: {
    show(){
     this.seen = true
+     setTimeout(()=>{
+      location.href="main.html"
+     },4000)
    }
   }  
 })
