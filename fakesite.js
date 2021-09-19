@@ -6,9 +6,9 @@ const app=new Vue({
   },
   methods:{
    move(){
-     this.seen=true
+     this.seen = true
      setTimeout(() => {
-       location.href=“main.html”
+       location.href = “main.html”
      },4000) 
    }
   }
