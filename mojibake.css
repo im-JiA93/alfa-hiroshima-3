@@ -1,0 +1,43 @@
+#text-button {
+    display: block;
+    cursor: pointer;
+    width: 300px;
+    text-align: center;
+    border: 1px solid #232323;
+  }
+  .container{
+    display: inline-block;
+    margin-right: auto;
+    margin-left: 230px;
+  }
+  .box{
+    margin-right: 100%;
+    margin-left: 100%;
+    background-color: #AFB4DB;
+    height: 100%;
+    width: 100%;
+  }
+  .message{
+    margin-right: 150px;
+    margin-left: 150px;
+    color: white;
+    background-color: #3c3c3c;
+  }
+  body{
+    background-color: #e7e7e7
+  }
+  .question{
+    background-color: white;
+  }
+  .button {
+    padding: 5px 50px;
+    color: white;
+    background-color: #505050;
+    border-style: none;
+    margin: 10px;
+  }
+  input {
+    height: 20px;
+    margin-left: 500px;
+    padding: 15px;
+  }
